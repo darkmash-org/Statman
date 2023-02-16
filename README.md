@@ -16,3 +16,4 @@ Visit : https://darkmash-org.github.io/Statman/
 ![Alt text](https://cdn.discordapp.com/attachments/1061954098817155127/1075740959444303933/image.png?raw=true "Options")
 
 
+ 
