@@ -8,9 +8,6 @@ Statman Website ||  Make your discord status look cool || Darkmash
 
 Visit : https://darkmash-org.github.io/Statman/
 
-## Extra Feature
-
-  - Changes back to your previous status configuration once stopped..
 
 ## Site
 
