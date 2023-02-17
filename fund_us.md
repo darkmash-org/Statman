@@ -3,7 +3,7 @@
 ```    
 Patreon - https://www.patreon.com/axorax
 
-Duino Coin - axorax
+Duino Coin - darkmash
 
 BCH (Bitcoincash) - qz2tsum0g74n3f6krfp8pnhcs5vkumqd6ud4d63eng
 
