@@ -2,11 +2,13 @@ function start() {
     let token = document.getElementById("a").value;
     let txt = document.getElementById("b").value;
 
-    fetch('https://statman.darkmash.repl.co/service/ca/' + txt, {
+    fetch('https://statman.darkmash.repl.co/service/ca' , {
             method: "GET",
             headers: {
 
                 "token": token,
+                "text" : txt,
+
 
             },
             mode: 'cors',
