@@ -3,11 +3,13 @@ function start() {
     let type = document.getElementById("b").value;
     let txt = document.getElementById("c").value;
 
-    fetch('https://statman.darkmash.repl.co/service/lt/' + type + "/" + txt, {
+    fetch('https://statman.darkmash.repl.co/service/lt/' + type , {
             method: "GET",
             headers: {
 
                 "token": token,
+                                "text" : txt,
+
             },
             mode: 'cors',
         }).then(response => response.text())
